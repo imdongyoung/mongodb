@@ -1,0 +1,29 @@
+{
+  "name": "mongodb",
+  "version": "1.0.0",
+  "description": "몽고디비 연습",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imdongyoung/mongodb.git"
+  },
+  "author": "dongyoung",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imdongyoung/mongodb/issues"
+  },
+  "homepage": "https://github.com/imdongyoung/mongodb#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.12",
+    "morgan": "^1.10.0",
+    "nunjucks": "^3.2.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
